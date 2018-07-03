@@ -20,7 +20,7 @@ import java.util.Locale;
  * <li>Always use locale US instead of default to make DecimalFormat work well in all language</li>
  */
 public class DecimalEditText extends android.support.v7.widget.AppCompatEditText {
-    private static String prefix = "";
+    private static String prefix = "VNĐ";
     private static final int MAX_LENGTH = 20;
     private static final int MAX_DECIMAL = 3;
     private CurrencyTextWatcher currencyTextWatcher = new CurrencyTextWatcher(this, prefix);
